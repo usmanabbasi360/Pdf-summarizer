@@ -11,7 +11,7 @@ import streamlit as st
 # Load the .env file and invoke the secret API key from the file
 # dotenv.load_dotenv('API.env')
 # OpenAI.api_key = os.getenv("OPEN_API_KEY")
-OpenAI.api_key = "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"
+OpenAI.api_key = "sk-OdfwdBF2FDRrcDN5SR1pT3BlbkFJQXgYHVtUtdURiGgZg"
 
 def summarize_pdf(pdf_file_path, chunk_size, chunk_overlap, prompt):
     #Instantiate LLM model gpt-3.5-turbo-16k
